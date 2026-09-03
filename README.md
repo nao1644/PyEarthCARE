@@ -206,7 +206,7 @@ Depending on the local environment and file encoding, another xarray-compatible 
 Clone or download this repository and move to the repository directory.
 
 ```bash
-git clone [<repository-url>](https://github.com/nao1644/PyEarthCARE)
+git clone https://github.com/nao1644/PyEarthCARE
 cd PyEarthCARE
 ```
 
