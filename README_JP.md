@@ -16,7 +16,7 @@ PyEarthCARE/
 └── plot_esa_velocity.py
 ```
 
-本リポジトリはEarthCARE CPRプロダクトの研究利用・可視化を目的としたものであり、**JAXAまたはESAの公式ソフトウェアではありません**。
+本リポジトリはEarthCARE CPRプロダクトの研究利用・可視化を目的としたものであり、JAXAまたはESAの公式ソフトウェアではありません。
 
 [English README](README.md)
 
@@ -378,7 +378,7 @@ Figureの描画条件やカラーマップなどは各`plot_*.py`側で管理し
 
 ## 11. 追加を推奨する公式資料・データ入手先
 
-以下は、プロダクト定義、version、release note、データ入手方法を確認するためにREADMEへ追加することを推奨する公式ページです。
+以下は、プロダクト定義、version、release note、データ入手可能な公式ページです。
 
 - JAXA EarthCAREプロダクト一覧：  
   https://www.eorc.jaxa.jp/EARTHCARE/data/prd_list_j.html
