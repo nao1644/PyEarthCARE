@@ -16,7 +16,7 @@ PyEarthCARE/
 └── plot_esa_velocity.py
 ```
 
-This repository is intended for research and visualization of EarthCARE CPR products. It is **not official JAXA or ESA software**.
+This repository is intended for research and visualization of EarthCARE CPR products. It is not official JAXA or ESA software.
 
 [日本語版 README](README_JP.md)
 
