@@ -214,7 +214,7 @@ python3 -m pip install numpy matplotlib xarray h5netcdf h5py
 リポジトリをcloneまたはダウンロードし、リポジトリのディレクトリへ移動します。
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/nao1644/PyEarthCARE
 cd PyEarthCARE
 ```
 
@@ -308,7 +308,7 @@ python3 plot_esa_velocity.py \
     --variable doppler_velocity_best_estimate
 ```
 
-## 7. 主なコマンドラインオプション
+## 6. 主なコマンドラインオプション
 
 | オプション | 内容 |
 |---|---|
@@ -323,7 +323,7 @@ python3 plot_esa_velocity.py \
 `--resolution`はJAXA版コードで使用します。  
 `--variable`はvelocity描画コードで使用します。
 
-## 8. Figureの設定
+## 7. Figureの設定
 
 現在の描画コードでは、以下を基本仕様としています。
 
@@ -341,7 +341,7 @@ Reflectivityについては、元コードと同様に`-21 dBZ`を基準とし�
 
 カラーマップ、level、軸範囲、ラベルなどのFigure固有設定は、利用者が容易に変更できるように`lib/PyEarthCARE.py`ではなく各`plot_*.py`内に残しています。
 
-## 9. `lib/PyEarthCARE.py`
+## 8. `lib/PyEarthCARE.py`
 
 `lib/PyEarthCARE.py`には、JAXA版・ESA版に共通する読み込みおよび前処理をまとめています。
 
@@ -368,7 +368,7 @@ select_latitude_range()
 
 Figureの描画条件やカラーマップなどは各`plot_*.py`側で管理します。
 
-## 10. 注意事項
+## 9. 注意事項
 
 - JAXA版`integrated_doppler_velocity`は`CPR_ECO`を想定しています。
 - JAXA版のcloud velocity関連変数は`CPR_CLP`を想定しています。
@@ -376,7 +376,7 @@ Figureの描画条件やカラーマップなどは各`plot_*.py`側で管理し
 - ESA版velocity関連変数は`CPR_CD`を想定しています。
 - 現在は横軸としてLatitudeを使用しており、沿軌道距離や時刻には対応していません。
 
-## 11. 追加を推奨する公式資料・データ入手先
+## 10. 追加を推奨する公式資料・データ入手先
 
 以下は、プロダクト定義、version、release note、データ入手可能な公式ページです。
 
